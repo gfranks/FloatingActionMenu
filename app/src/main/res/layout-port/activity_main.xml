@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <com.github.gfranks.fab.menu.FloatingActionsMenu
+        android:id="@+id/fab_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        fab:fab_addButtonColorNormal="@color/red"
+        fab:fab_addButtonColorPressed="@color/red_dark"
+        fab:fab_addButtonPlusIconColor="@android:color/white"
+        fab:fab_bounceWhenExpanding="false"
+        fab:fab_cardBackgroundColor="@android:color/white"
+        fab:fab_closeOnItemClick="true"
+        fab:fab_expandDirection="up"
+        fab:fab_labelTextColor="@android:color/black">
+
+        <com.github.gfranks.fab.menu.FloatingActionButton
+            android:id="@+id/fab_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/red"
+            fab:fab_colorPressed="@color/red_dark"
+            fab:fab_icon="@android:drawable/ic_delete"
+            fab:fab_iconTintColor="@android:color/white"
+            fab:fab_size="mini"
+            fab:fab_title="@string/fab_1" />
+
+        <com.github.gfranks.fab.menu.FloatingActionButton
+            android:id="@+id/fab_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/red"
+            fab:fab_colorPressed="@color/red_dark"
+            fab:fab_icon="@android:drawable/ic_dialog_email"
+            fab:fab_iconTintColor="@android:color/white"
+            fab:fab_size="mini"
+            fab:fab_title="@string/fab_2" />
+
+        <com.github.gfranks.fab.menu.FloatingActionButton
+            android:id="@+id/fab_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/red"
+            fab:fab_colorPressed="@color/red_dark"
+            fab:fab_icon="@android:drawable/ic_dialog_info"
+            fab:fab_iconTintColor="@android:color/white"
+            fab:fab_size="mini"
+            fab:fab_title="@string/fab_3" />
+
+        <com.github.gfranks.fab.menu.FloatingActionButton
+            android:id="@+id/fab_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/red"
+            fab:fab_colorPressed="@color/red_dark"
+            fab:fab_icon="@android:drawable/ic_dialog_map"
+            fab:fab_iconTintColor="@android:color/white"
+            fab:fab_size="mini"
+            fab:fab_title="@string/fab_4" />
+
+        <com.github.gfranks.fab.menu.FloatingActionButton
+            android:id="@+id/fab_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/red"
+            fab:fab_colorPressed="@color/red_dark"
+            fab:fab_icon="@android:drawable/ic_dialog_alert"
+            fab:fab_iconTintColor="@android:color/white"
+            fab:fab_size="mini"
+            fab:fab_title="@string/fab_5" />
+
+        <com.github.gfranks.fab.menu.FloatingActionButton
+            android:id="@+id/fab_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/red"
+            fab:fab_colorPressed="@color/red_dark"
+            fab:fab_icon="@android:drawable/ic_input_get"
+            fab:fab_iconTintColor="@android:color/white"
+            fab:fab_size="mini"
+            fab:fab_title="@string/fab_6" />
+
+
+    </com.github.gfranks.fab.menu.FloatingActionsMenu>
+
+</FrameLayout>

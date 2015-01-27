@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FloatingActionMenu Sample</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="fab_1">Fab 1</string>
+    <string name="fab_2">Fab 2</string>
+    <string name="fab_3">Fab 3</string>
+    <string name="fab_4">Fab 4</string>
+    <string name="fab_5">Fab 5</string>
+    <string name="fab_6">Fab 6</string>
+</resources>
